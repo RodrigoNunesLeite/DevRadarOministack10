@@ -7,9 +7,9 @@ const routes = require('./routes')
 // o express nesse caso aqui é uma função
 const app = express();
 
-// week10 é o nome do banco
 // Conexão com o banco de dados
-mongoose.connect('mongodb+srv://rodrigonunes:omnirodrigo@oministack10-rgdqq.mongodb.net/week10?retryWrites=true&w=majority', {
+// informar string de conexao do atlas.
+mongoose.connect('', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
